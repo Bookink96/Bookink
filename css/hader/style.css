@@ -1,0 +1,106 @@
+body {
+    background-image: url('../../img/header-footer/IMG-20240925-WA0006.jpg');
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 98vw;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 70px;
+
+}
+
+.logoA {
+    width: 2rem;
+    height: 2rem;
+    /* margin-inline: 1rem; */
+    border-radius: 10px;
+}
+
+.logoA:hover {
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo:hover {
+    width: 7rem;
+    height: 7rem;
+}
+
+
+
+.col0 {
+    display: flex;
+    height: 7rem;
+    align-content: center;
+    position: relative;
+}
+
+.col1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.logoRedes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(169, 170, 123);
+    font-size:  3rem;
+}
+
+.spanLogo {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    width: 60%;
+    font-size: 1.2rem;
+    color: rgb(169, 170, 123);
+    top: 15rem;
+    left: 1.8rem;
+    padding-inline: 0.5rem;
+    border: 0.1rem, solid, rgb(142, 150, 150);
+    border-radius: 7px;
+    text-align: justify;
+    opacity: 0;
+    visibility: hidden;
+}
+.triangulo {
+    position: absolute;
+    top: 13.8rem;
+    left: 10.3rem;
+    border: 10px, solid, rgb(25, 25, 25);
+    border-bottom-color:  rgb(142, 150, 150);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.row:hover .triangulo {
+    opacity: 1;
+    transition: all 1s;
+    visibility: visible;
+}
+
+.row:hover .spanLogo{
+    opacity: 1;
+    transition: all 1s;
+    visibility: visible;
+}
+
+
