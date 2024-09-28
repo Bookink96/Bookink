@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap:
-https://bookink96.github.io/Bookink/sitemap.xml
